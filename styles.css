@@ -1,3 +1,164 @@
+/* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    background-color: #1a202c;
+    color: white;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #f97316;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #f97316;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #1a202c;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #f97316;
+    color: white;
+}
+
+/* Main Section */
+.main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text h1,
+.text h2,
+.text h3 {
+    margin: 10px 0;
+}
+
+.text p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #555;
+}
+
+/* Buttons */
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+}
+
+.blue {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.gray {
+    background-color: #4b5563;
+    color: white;
+}
+
+.orange {
+    background-color: #f97316;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Contact Info */
+.contact-info {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-info a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+/* Profile Image */
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about ul li {
+    margin: 8px 0;
+    font-size: 18px;
 }
